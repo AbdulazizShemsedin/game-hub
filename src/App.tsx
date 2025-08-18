@@ -1,7 +1,20 @@
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button, ButtonGroup, Grid, GridItem } from "@chakra-ui/react";
+import NavBar from "./components/NavBar";
 
 function App() {
-  return <></>;
+  return (
+    <Grid
+      templateAreas={{
+        base: `"nav" "main"`,
+        lg: `"nav nav" "aside main"`,
+      }}
+    >
+      <GridItem area="nav" >
+        <NavBar />
+        
+      </GridItem>
+    </Grid>
+  );
 }
 
 export default App;
