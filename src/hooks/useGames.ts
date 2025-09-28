@@ -1,4 +1,5 @@
 import type { GameQuery } from "../App";
+import SearchInput from "../components/SearchInput";
 import useData from "./useData";
 
 export interface Platform {
@@ -22,7 +23,8 @@ const useGames = (gameQuery : GameQuery) =>
   params: {
     genres: gameQuery.genre?.id, 
     platforms: gameQuery.platform?.id,
-    ordering: gameQuery.sortOrder
+    ordering: gameQuery.sortOrder,
+    search: gameQuery.searchText
     }},
   [gameQuery])
 
