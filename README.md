@@ -12,13 +12,13 @@ I built GameHub to familiarize myself with React concepts and gain a preview bui
 * **Search & Sort:** Search for specific titles and sort results by date added, name, release date, popularity, or average rating.
 * **Combined Queries:** Search, sort, and filter parameters all stack together accurately to narrow down results.
 * **Responsive UI:** A clean, grid-based layout that adapts to mobile, tablet, and desktop screens, complete with a dark mode toggle.
-* **Optimized Loading:** Uses skeleton loaders to improve the perceived performance while fetching data.
+* **Optimized Loading:** Uses skeleton loaders to improve user experience while fetching data.
 
 ## What I Learned
 This project was a massive boost for my frontend skills. Specifically, it taught me:
 
 * **Managing Complex State:** figuring out how to keep multiple filters (search input, selected genre, selected platform, and sort order) in sync was a bit exhausting than I taught. Instead of creating a messy web of individual state variables, I learned how to play with hooks, the state and pass a single query object around the application.
-* **Connecting to External APIs:** Working with the RAWG API taught me how to properly handle asynchronous data fetching using Axios. I learned the importance of handling loading states, catching errors gracefully, and using AbortControllers to cancel requests if the user navigates away before the fetch completes.
+* **Connecting to External APIs:** Working with the RAWG API taught me how to properly handle asynchronous data fetching using Axios. I learned the importance of handling loading states, catching errors, and using AbortControllers to cancel requests if the user navigates away before the fetch completes.
 * **Type Safety:** Using TypeScript alongside React forced me to define the exact shape of my API responses and component props. I wouldn't have noticed it but it probably prevented countless runtime errors and have a well structured code. Imagine if it was a larger project, Enough typescript compliments.
 * **Component Abstraction:** I got much better at breaking down a large UI into small, reusable, and maintainable components rather than stuffing everything into a few massive files. Divide and conquer :)
 
