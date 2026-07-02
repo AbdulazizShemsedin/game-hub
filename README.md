@@ -5,7 +5,7 @@ A video game discovery web application built for practicing how to use state, da
 **[View Live Demo]](https://game-hub-xi-five-23.vercel.app/)**
 
 ## Overview
-I built GameHub to familiarize myself with React concepts and gain a preview building a real-world frontend that relies on a third-party API. The application pulls data from the RAWG Video Games Database, allowing users to browse, search, and filter through thousands of games seamlessly. 
+I built GameHub to familiarize myself with React concepts and gain a preview building a real-world frontend that relies on a third-party API. The application pulls data from the RAWG Video Games Database, you can browse, search, and filter through all the of the games on the API. 
 
 ## Features
 * **Dynamic Filtering:** Filter games by platform (PC, PlayStation, Xbox, etc.) and genre.
